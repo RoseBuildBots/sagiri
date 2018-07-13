@@ -1,0 +1,19 @@
+{
+  "name": "Sagiri",
+  "description": "mod bot",
+  "repository": "https://github.com/RoseBuildBots/sagiri",
+  "env": {
+    "TOKEN": {
+        "description": "Your discord bot's token.",
+        "required": true
+    },
+    "GUILD_ID": {
+      "description": "The id for the server you are hosting this bot for.",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefix to use.",
+      "required": false
+    }
+  }
+}
