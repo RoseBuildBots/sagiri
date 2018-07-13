@@ -11,10 +11,6 @@
       "description": "The id for the server you are hosting this bot for.",
       "required": false
     },
-  "buildpacks": [
-    {
-      "url": "heroku-buildpack-python"
-    },
 "PREFIX": {
       "description": "Command prefix to use.",
       "required": false
