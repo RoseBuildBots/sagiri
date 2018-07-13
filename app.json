@@ -14,9 +14,7 @@
 "PREFIX": {
       "description": "Command prefix to use.",
       "required": false
-  }
   },
-  "buildpacks": [
-    {
+  "buildpacks": {
       "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
-    }
+  }
